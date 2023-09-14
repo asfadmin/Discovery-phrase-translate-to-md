@@ -1,6 +1,6 @@
 # phrase-translate-to-md
 
-The 'translate-to-md.py' is used to create .md files from .key files.
+The 'phrase-translate-to-md.py' is used to create .md files from .key files.
 Pass the source directory or file as an argument to the script and 
 it will process recursively through the directory and process .key files and create 
 .md files for each of locales in the phrase strings project.
