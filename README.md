@@ -8,3 +8,6 @@ it will process recursively through the directory and process .key files and cre
 The 'phrase_strings.py' script is used for interfacing
 to the Phrase API to get locales and translations for a project. The
 script expects the Phrase access token to be stored in the environment.
+
+## Package Installation
+python -m pip install phrase-api
