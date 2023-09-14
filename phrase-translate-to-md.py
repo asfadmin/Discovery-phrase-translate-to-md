@@ -34,7 +34,7 @@ def replace_key_in_file(file_path):
 
             # Find all keys wrapped in double curly braces
             # Example: {{ key }}
-            keys = re.findall(r"\{\{.*?\}\}", content)
+            keys = re.findall(r"\{\{.*?}}", content)
 
             # Loop through keys and replace them with values from the loaded locale
             for key in keys:
